@@ -1,0 +1,18 @@
+log:
+  level: "info"
+  encoding: "json"
+  disable_timestamp: true
+  development: true
+  disable_caller: true
+  disable_stacktrace: true
+  disable_error_verbose: true
+
+log_file:
+  file_name: "/tmp/ebao_policy.info.log"
+  max_size: 1
+  max_days: 30
+  max_backups: 10
+
+log_format:
+    app: "bons"
+    err: "ebao_policy"
